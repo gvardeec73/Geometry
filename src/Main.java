@@ -1,3 +1,4 @@
+import figures.Circle;
 import figures.Hexagon;
 import figures.Pentagon;
 import figures.Polygon;
@@ -23,5 +24,9 @@ public class Main {
         hexagon.setSide(6);
         System.out.println(hexagon);
 
+        Circle circle = new Circle(5);
+        System.out.println(circle);
+        circle.setRadius(8);
+        System.out.println(circle);
     }
 }

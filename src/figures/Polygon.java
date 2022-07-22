@@ -3,12 +3,7 @@ package figures;
 public class Polygon extends Figure {
     double side;
     int sidesNumber;
-    int id;
-    static int counter;
-    static
-    {
-       counter = 0;
-    }
+
 
     static {
         figureName = "Полигон";
