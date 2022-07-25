@@ -1,7 +1,4 @@
-import figures.Circle;
-import figures.Hexagon;
-import figures.Pentagon;
-import figures.Polygon;
+import figures.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,5 +25,11 @@ public class Main {
         System.out.println(circle);
         circle.setRadius(8);
         System.out.println(circle);
+
+        Oval oval = new Oval(5, 3);
+        System.out.println(oval);
+        oval.setRadius_R(7);
+        System.out.println(oval);
+
     }
 }
