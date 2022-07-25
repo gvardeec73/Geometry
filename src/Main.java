@@ -1,4 +1,7 @@
 import figures.*;
+import figures.triangles.Triangle;
+import figures.triangles.equTriangle;
+import figures.triangles.isoTriangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,5 +34,19 @@ public class Main {
         oval.setRadius_R(7);
         System.out.println(oval);
 
+        Triangle triangle = new Triangle(5, 7,9);
+        System.out.println(triangle);
+        triangle.setSideB(8);
+        System.out.println(triangle);
+
+        isoTriangle triangle1 = new isoTriangle(10, 12);
+        System.out.println(triangle1);
+        triangle1.setSideB(8);
+        System.out.println(triangle1);
+
+        equTriangle triangle2 = new equTriangle(10);
+        System.out.println(triangle2);
+        triangle2.setSideA(8);
+        System.out.println(triangle2);
     }
 }
